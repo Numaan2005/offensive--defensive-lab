@@ -97,5 +97,5 @@ Examine the followed TCP stream to observe the FTP communication, including the 
 
 ### Screenshot
 
-![Step 6 Screenshot](images/step_6.jpeg)
+![Step 6 Screenshot](images/step_6.jpg)
 
