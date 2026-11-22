@@ -1,5 +1,4 @@
 
-# Experiment 8: Mapping Threats with MITRE ATT&CK
 
 # Experiment 8: Mapping Threats with MITRE ATT&CK
 
