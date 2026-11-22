@@ -16,7 +16,7 @@ This repository contains the laboratory work for **COM-512: Offensive and Defens
 4. [Experiment 4: Firewall & IDS Setup](Experiment-4-Firewall-IDS-Setup/README.md)
 5. [Experiment 5: Sniffing & Session Hijacking](Experiment-5-Sniffing-Session-Hijacking/README.md)
 6. [Experiment 6: OWASP ZAP](Experiment-6-OWASP-ZAP/README.md)
-7. Experiment 7: OSINT Recon
-8. Experiment 8: MITRE ATT&CK Mapping
-9. Experiment 9: Hydra Password Guessing
-10. Experiment 10: Gophish Phishing Simulation
+7. Experiment 7: OSINT Recon(Experiment-7-OSINT-Recon/README.md)
+8. Experiment 8: MITRE ATT&CK Mapping(Experiment-8-MITRE-ATTACK-Mapping/README.md)
+9. Experiment 9: Hydra Password Guessing(Experiment-9-Hydra-Password-Guessing/README.md) 
+10. Experiment 10: Gophish Phishing Simulation(Experiment-10-Gophish-Phishing-Simulation/README.md)
